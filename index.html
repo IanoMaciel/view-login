@@ -26,6 +26,21 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet"
   >
+
+  <style>
+
+  /* Esconde scrollbar mas mantém scroll funcionando */
+  .left-panel{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE e Edge */
+  }
+
+  .left-panel::-webkit-scrollbar{
+    display: none; /* Chrome, Safari */
+  }
+
+</style>
+
 </head>
 
 <body
@@ -41,7 +56,7 @@
     <div class="row g-0 bg-white h-100 w-100 shadow-lg">
 
       <!-- LEFT -->
-      <div class="col-lg-4 bg-white d-flex flex-column justify-content-between p-4 p-lg-5 h-100 overflow-auto" >
+      <div class="col-lg-4 bg-white d-flex flex-column justify-content-between p-4 p-lg-5 h-100 overflow-auto left-panel">
 
         <div>
           <!-- LOGO -->
@@ -71,7 +86,7 @@
           </div>
 
           <!-- LINES -->
-          <div class="d-flex rounded-pill overflow-hidden mb-5 mx-auto" style="width:150px; height:6px;">
+          <div class="d-flex rounded-pill overflow-hidden mb-4 mx-auto" style="width:150px; height:6px;">
             <div class="bg-primary w-100"></div>
             <div class="bg-success w-100"></div>
             <div class="bg-warning w-100"></div>
@@ -171,7 +186,7 @@
           </div>
 
           <!-- Links -->
-          <div class="text-center mb-4">
+          <div class="text-center">
 
             <p class="text-secondary mb-2">
               Ainda não possui uma conta?
@@ -186,10 +201,8 @@
 
         <!-- COPYRIGHT -->
         <div class="text-center text-secondary small mt-5 lh-lg">
-
           © 2026 Governo do Estado do Amazonas.<br>
           Todos os direitos reservados.
-
         </div>
 
       </div>
