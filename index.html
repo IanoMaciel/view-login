@@ -64,14 +64,14 @@
               Portal do <strong class="fw-bold">Cidadão</strong>
             </h1>
 
-            <p class="text-secondary lh-lg">
+            <p class="text-secondary">
               Veja as próximas ações e visualize os serviços públicos com rapidez, praticidade e facilidade.
             </p>
 
           </div>
 
           <!-- LINES -->
-          <div class="d-flex rounded-pill overflow-hidden mb-5 mx-auto" style="width:120px; height:6px;">
+          <div class="d-flex rounded-pill overflow-hidden mb-5 mx-auto" style="width:150px; height:6px;">
             <div class="bg-primary w-100"></div>
             <div class="bg-success w-100"></div>
             <div class="bg-warning w-100"></div>
@@ -79,7 +79,6 @@
 
           <!-- FORM -->
           <form>
-
             <!-- CPF -->
             <div class="mb-4">
 
@@ -90,63 +89,55 @@
                 CPF
               </label>
 
-              <div class="input-group input-group-lg">
+              <div class="input-group">
 
-                <span class="input-group-text bg-white">
-                  <i class="bi bi-person-fill text-secondary"></i>
-                </span>
+              <span class="input-group-text bg-white">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
 
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="cpf"
-                  maxlength="14"
-                  placeholder="000.000.000-00"
-                  inputmode="numeric"
-                />
+              <input
+                type="tel"
+                class="form-control"
+                id="cpf"
+                maxlength="14"
+                placeholder="000.000.000-00"
+                inputmode="numeric"
+              />
 
-              </div>
+            </div>
+
 
             </div>
 
             <!-- Password -->
             <div class="mb-2">
 
-              <label class="form-label fw-semibold" style="color:#002f7d;" >
-                Senha
-              </label>
+              <label class="form-label fw-semibold" style="color:#002f7d;" >Senha</label>
 
-              <div class="input-group input-group-lg">
-                <span class="input-group-text bg-white">
-                  <i class="bi bi-lock-fill text-secondary"></i>
-                </span>
+              <div class="input-group">
 
-                <input
-                  type="password"
-                  class="form-control border-start-0 border-end-0"
-                  id="password"
-                  placeholder="Digite sua senha"
-                />
+              <span class="input-group-text bg-white">
+                <i class="bi bi-lock-fill text-secondary"></i>
+              </span>
 
-                <button
-                  type="button"
-                  class="btn btn-outline-secondary border"
-                  onclick="togglePassword()"
-                >
-                  <i class="bi bi-eye-fill"></i>
-                </button>
+              <input
+                type="password"
+                class="form-control border-start-0 border-end-0"
+                id="password"
+                placeholder="Digite sua senha" />
 
-              </div>
+              <button type="button" class="btn btn-outline-secondary border" onclick="togglePassword()">
+                <i class="bi bi-eye-fill"></i>
+              </button>
+
+            </div>
 
             </div>
 
             <!-- Forgot Password -->
             <div class="text-end mb-4">
 
-              <a
-                href="#"
-                class="text-decoration-none fw-medium"
-              >
+              <a href="#" class="text-decoration-none fw-medium">
                 Esqueci minha senha
               </a>
 
@@ -155,7 +146,7 @@
             <!-- Button -->
             <button
               type="submit"
-              class="btn btn-primary btn-lg w-100 fw-semibold py-3 border-0"
+              class="btn btn-primary w-100 fw-semibold py-2 border-0"
               style="background:#002f7d;"
             >
 
@@ -186,11 +177,7 @@
               Ainda não possui uma conta?
             </p>
 
-            <a
-              href="#"
-              class="fw-semibold text-decoration-none"
-              style="color:#002f7d;"
-            >
+            <a href="#" class="text-decoration-none fw-medium">
               Criar conta agora
             </a>
 
@@ -214,7 +201,7 @@
 
         <!-- IMAGE -->
         <img
-          src="assets/background.png"
+          src="assets/background.jpeg"
           class="w-100 vh-100 object-fit-cover"
           alt="Banner"
         >
